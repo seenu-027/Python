@@ -7,7 +7,7 @@ def enQueue(head, val):
     # This function inserts node at tail
     newBlock = Node(val)
     if head == None:
-        return newBlock 
+        return newBlock
  
     tail = head 
     while tail.next != None:
